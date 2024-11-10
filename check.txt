@@ -1,0 +1,66 @@
+Slide 1: Introduction to MongoDB vs SQL
+Title: Introduction to MongoDB (NoSQL) vs SQL Databases
+
+What is MongoDB?
+
+MongoDB is a NoSQL, document-based database.
+Stores data in flexible, JSON-like format (BSON).
+Scales horizontally for high performance and large datasets.
+What is SQL?
+
+SQL (Structured Query Language) databases use a relational model.
+Data is stored in tables with fixed schema.
+SQL databases are vertically scalable and rely on ACID (Atomicity, Consistency, Isolation, Durability) properties.
+Slide 2: MongoDB - Key Features
+Title: Key Features of MongoDB
+
+Document-Oriented:
+
+Stores data in collections of JSON-like documents (BSON).
+Flexible schema design allows for easy updates.
+Scalability:
+
+Horizontal scaling through sharding (data distributed across multiple servers).
+Ideal for handling large-scale, high-velocity data.
+Querying:
+
+Supports rich, flexible queries including aggregation, text search, and geospatial queries.
+Schema-less:
+
+Data can have different structures within the same collection.
+Slide 3: SQL - Key Features
+Title: Key Features of SQL Databases
+
+Relational Model:
+Data stored in tables with rows and columns, where each table represents an entity.
+ACID Transactions:
+Ensures strong consistency and reliability for transactional applications.
+Structured Query Language (SQL):
+A powerful and standardized language for querying and managing data.
+Fixed Schema:
+Data must conform to a predefined schema, with strong data types for each column.
+Slide 4: MongoDB vs SQL - Comparison
+Title: Comparison Between MongoDB and SQL Databases
+
+Feature	MongoDB (NoSQL)	SQL Databases
+Data Model	Document-based (JSON/BSON)	Relational (Tables, Rows, Columns)
+Schema	Schema-less (flexible)	Fixed schema (strict structure)
+Scalability	Horizontal (Sharding)	Vertical (Scaling up, scaling out is complex)
+Query Language	MongoDB Query Language (MQL)	Structured Query Language (SQL)
+Transactions	Supports multi-document ACID transactions	Full ACID support for multi-row, multi-table transactions
+Use Case	Large-scale, unstructured data, real-time apps	Structured data, complex queries, transactional systems
+Slide 5: When to Use MongoDB vs SQL
+Title: When to Choose MongoDB vs SQL
+
+Use MongoDB if:
+
+You need flexible, schema-less data storage.
+Your data is large, unstructured, or semi-structured.
+You require horizontal scaling and high throughput for large datasets.
+Use cases include: real-time analytics, IoT, content management, and social media applications.
+Use SQL if:
+
+You need strong data integrity and consistency.
+Your data is structured and you have complex queries and joins.
+You require robust support for transactions (banking, e-commerce).
+Use cases include: financial systems, enterprise applications, and legacy systems.
